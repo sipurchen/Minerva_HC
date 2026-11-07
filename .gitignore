@@ -1,0 +1,16 @@
+# ── SipurCodex BEGIN: public repository exclusions / 公開 Repo 排除規則 ──
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.secret
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+# ── SipurCodex END ──
