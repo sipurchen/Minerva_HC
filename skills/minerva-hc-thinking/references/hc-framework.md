@@ -63,6 +63,22 @@ For each selected habit:
 4. State what changed after applying it.
 5. Remove the tag if nothing changed.
 
+## Alignment with stage-based decision frameworks
+
+<!-- ── SipurCC BEGIN: stage-framework alignment addition / 階段式框架對應新增 ── -->
+When this Skill is used alongside a separate stage-based reasoning discipline (for example, a framing/evidence/decision-points/plan/verification style sequence), habits slot naturally into specific stages rather than being applied all at once:
+
+| Stage-type | Habits that typically apply there |
+| --- | --- |
+| Framing the problem | #constraints, #breakitdown |
+| Gathering and checking evidence | #sourcequality, #estimation, #induction |
+| Naming real decision points | #decisiontradeoffs, #modeltypes, #stakeholders |
+| Planning or designing a response | #designthinking, #composition, #multimodaldesign |
+| Verifying or reviewing the result | #ethicaleffects, #negotiate, #differences |
+
+This is a starting map, not a rule: a habit that changes the output at an unlisted stage should still be used there, and a listed habit that would not change anything at that stage should still be dropped per the stand-down gate. Do not force every stage of an external framework to carry a habit tag.
+<!-- ── SipurCC END ── -->
+
 ## Cross-domain transfer task
 
 A transfer task changes the surface domain while preserving the cognitive operation.
@@ -97,4 +113,17 @@ Use three stages:
 3. **Integrate:** require learners to select habits, justify the selection, produce artifacts, and self-assess against the rubric.
 
 Content is the practice medium. The learning target is the transferable behavior.
+
+### Scaling the pattern to a multi-domain curriculum
+
+<!-- ── SipurCC BEGIN: multi-domain scaling addition / 多領域擴充新增 ── -->
+The same three stages scale from one lesson to a full curriculum without changing their shape:
+
+- **Foundation tier:** one short unit per habit family (critical, creative, communication, interaction), each introducing only the habits that will be reused later, plus how to read the rubric. Keep this tier small — its job is vocabulary and one worked example per habit, not mastery.
+- **Applied tier:** several unrelated subject-matter units, each required to select 2–4 habits from the foundation tier and produce the matching artifacts. Reusing the same small habit set across domains the learner did not expect to connect is what produces transfer evidence; introducing new habits in this tier dilutes it.
+- **Capstone tier:** learners choose an unfamiliar problem and select their own habits without being told which ones apply, at Level 4–5 of the rubric. A capstone that supplies the habit list for them only tests Level 2–3 application.
+
+A curriculum that keeps growing the foundation tier instead of reusing it across the applied tier is a sign the design has drifted from "shared transferable habits" back toward "one new framework per topic" — the exact pattern this Skill exists to avoid.
+<!-- ── SipurCC END ── -->
+
 <!-- ── SipurCodex END ── -->

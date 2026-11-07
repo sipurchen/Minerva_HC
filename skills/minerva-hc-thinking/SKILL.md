@@ -50,6 +50,20 @@ Use the smallest useful form:
 - **Rubric evidence:** level 1–5 plus the observed behavior, when assessment is requested.
 - **Unknowns:** claims that remain unverified.
 
+## Worked example (generic)
+
+<!-- ── SipurCC BEGIN: worked example addition / 範例新增 ── -->
+A short end-to-end trace, kept generic and hypothetical so it stays usable outside any one project.
+
+- **Task frame:** A team must choose between two ways to ship a reporting feature before a deadline; the request as given only says "make reporting faster."
+- **Selected habits:** `#constraints` (the deadline and the current data model are hard constraints; "faster" is an assumed, not hard, requirement) and `#decisiontradeoffs` (the two real options affect different stakeholders differently).
+- **Applied result:** A constraint table separates hard (deadline, existing schema), soft (preferred UI), and assumed (how much "faster" actually needs to be) requirements. A two-option decision record states cost, reversibility, and affected stakeholders for each option, with a recommendation and the reasoning that produced it.
+- **Transfer check:** The same `#constraints` table format is reapplied to an unrelated decision — for example, choosing a venue for an event — to confirm the learner can separate hard/soft/assumed requirements without the original domain's vocabulary.
+- **Rubric evidence:** Level 3 if the learner produces both artifacts correctly in the original domain; Level 4 only if they independently reproduce the constraint table in the transfer domain and can name what stayed invariant (the hard/soft/assumed distinction itself, not the reporting feature).
+
+This example exists to show the shape of a complete pass, not to be copied verbatim; swap in the task's real frame, habits, and artifacts.
+<!-- ── SipurCC END ── -->
+
 ## Boundaries
 
 - Do not claim that the habit list is Minerva's current or complete catalog.
