@@ -1,0 +1,9 @@
+# ── SipurCodex BEGIN: Codex interface metadata / Codex 介面中繼資料 ──
+interface:
+  display_name: "Minerva HC Thinking"
+  short_description: "Apply transferable thinking habits with evidence"
+  default_prompt: "Use $minerva-hc-thinking to analyze this problem with transferable habits and a behavioral rubric."
+
+policy:
+  allow_implicit_invocation: true
+# ── SipurCodex END ──
