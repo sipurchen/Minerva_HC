@@ -47,4 +47,5 @@ Create a public, MIT-licensed Codex Skill inspired by Minerva University's publi
 - 2026-11-07: public repository initialized with MIT License; official sources and similar repositories reviewed; implementation pending.
 - 2026-11-07: created the minerva-hc-thinking Skill, public-source framework, Codex metadata, bilingual README, comparison report, and repository exclusions.
 - 2026-11-07: bundled Skill validation, UTF-8 review, Git diff check, private-path scan, and secret-pattern scan passed before publication.
+- 2026-11-07: pushed feature/minerva-hc-skill and opened PR #1; local and remote feature SHAs matched at verification.
 <!-- ── SipurCodex END ── -->
